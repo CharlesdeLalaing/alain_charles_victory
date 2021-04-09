@@ -16046,5 +16046,48 @@ h3 {
     border-color: #dee2e6;
   }
 }
+.banner {
+  background-image: url(../../public/img/banner-bg.jpg);
+}
+
+.banner2 {
+  background-image: url(../../public/img/book-bg.jpg);
+}
+
+.bkItem {
+  background-image: url(../../public/img/breakfast_item.jpg);
+}
+
+.lItem {
+  background-image: url(../../public/img/lunch_item.jpg);
+}
+
+.dItem {
+  background-image: url(../../public/img/dinner_item.jpg);
+}
+
+.blog1 {
+  background-image: url(../../public/img/blog_post_01.jpg);
+}
+
+.blog2 {
+  background-image: url(../../public/img/blog_post_02.jpg);
+}
+
+.blog3 {
+  background-image: url(../../public/img/blog_post_03.jpg);
+}
+
+.blog4 {
+  background-image: url(../../public/img/blog_post_04.jpg);
+}
+
+.banner3 {
+  background-image: url(../../public/img/signup-bg.jpg);
+}
+
+body {
+  margin: 0 auto;
+}
 
 /*# sourceMappingURL=app.css.map */
