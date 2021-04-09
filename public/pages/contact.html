@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../css/app.css">
 </head>
 <body>
+    <!-- HEADER - container pour avoir les margins des deux côtés, une div pour pour le titre du site et la navbar bootstrap. Avec police Spectral pour le titre et Roboto pour le a -->
     <header style="background-color: #EAF0FF;">
         <div class="container">
             <div>
@@ -30,10 +31,10 @@
                                 <a class="nav-link d-flex flex-column text-dark text-center align-items-center" href="">OUR MENU</a>
                             </li>
                             <li class="nav-item p-3">
-                                <a class="nav-link d-flex flex-column text-dark text-center align-items-center" href="./public/pages/blog.html">BLOG ENTRIES</a>
+                                <a class="nav-link d-flex flex-column text-dark text-center align-items-center" href="/public/pages/blog.html">BLOG ENTRIES</a>
                             </li>
                             <li class="nav-item p-3">
-                                <a class="nav-link d-flex flex-column text-dark text-center align-items-center" href="./public/pages/contact.html">CONTACT US</a>
+                                <a class="nav-link d-flex flex-column text-dark text-center align-items-center" href="/public/pages/contact.html">CONTACT US</a>
                             </li>
                         </ul>
                     </div>
@@ -41,7 +42,8 @@
             </div> 
         </div>
     </header>
-    
+
+    <!-- Haut de page avec une section et container pour avoir les margins correct. -->
     <section class="hautpagecontact" style="background-image: url(/public/img/heading-bg.jpg); height: 250px; background-repeat: no-repeat; background-size: cover; background-position: center center; text-align: center; margin-bottom: 100px;">
         <div class="container">
             <div class="row justify-content-center align-items-center" style="height: 250px;">
@@ -54,6 +56,7 @@
         </div>
     </section>
 
+    <!-- Section avec container pour les margins, deux col-md-6 pour séparer le formulaire à gauche et le texte à droite. Plus deux col-md6 and le formulaire de gauche pour divisé en deux une fois de plus et séparer les input de gauche et celui de droite avec le bouton. Ajout de padding pour mettre à même hauteur. -->
     <section class="contact-form">
         <div class="top" style="margin-bottom: 50px; margin-top: 100px;">
             <div class="container">
@@ -62,6 +65,7 @@
                     <h2 class="mb-5">Message</h2>
                     <form action="">
                         <div class="row">
+                            <!-- Deux col-md-6 dans le premier col-md-6 de la section. -->
                             <div class="col-md-6 d-block">
                                 <input type="text" placeholder="Your name..." style="margin-bottom: 29px; background-color: #f4f4f4; border: #f4f4f4 solid 1px; font-size: 13px; padding: 10px 10px; width: 100%; border-radius: 5px;">
                                 <input type="text" placeholder="Your e-mail..." style="margin-bottom: 29px; background-color: #f4f4f4; border: #f4f4f4 solid 1px; font-size: 13px; padding: 10px 10px; width: 100%; border-radius: 5px; ">
@@ -86,6 +90,7 @@
         </div>
     </section>
 
+    <!-- Map ajouté avec google map embed, col-md-12 pour prendre toute la largeur du container. -->
     <section class="map" style="margin-bottom:100px;">
         <div class="container">
             <div class="row">
@@ -96,6 +101,7 @@
         </div>
     </section>
 
+    <!-- Footer avec container, 3 div col-md-4 pour se diviser en trois partie égale, texte centré, et du padding pour mieux se placer quand l'écran diminue -->
     <footer style="background-color: #363e50; margin-top: 100px;">
     <div class="container">
         <div>
