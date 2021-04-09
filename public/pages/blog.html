@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/app.css">
+</head>
+<body>
+    <!-- HEADER - container pour avoir les margins des deux côtés, une div pour pour le titre du site et la navbar bootstrap. Avec police Spectral pour le titre et Roboto pour le a -->
+    <header style="background-color: #EAF0FF;">
+        <div class="container">
+            <div>
+                <div class="row text-center justify-content-center align-items-center" style="border-bottom: 1px solid rgba(0, 0, 0, 0.1); height: 120px;">
+                    <div class="col-sm" style="font-size: 50px;">
+                        <h1 style="font-size: 50px; font-family: 'Spectral', serif; font-style: italic; font-weight: 400;">Victory</h1>
+                    </div>
+                </div>
+                <nav class="navbar navbar-expand-lg" style="background-color: #EAF0FF;">
+                    <a class="navbar-brand" href="#"></a>
+                    <button class="navbar-toggler bg-danger m-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span style="color: white;"> <i class="fas fa-bars"></i> </span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-center" id="navbarNav" style="height: 70px;">
+                        <ul class="navbar-nav d-flex">
+                            <li class="nav-item p-3">
+                                <a class="nav-link d-flex flex-column text-dark text-center align-items-center" href="./index.html"> HOME</a>
+                            </li>
+                            <li class="nav-item p-3">
+                                <a class="nav-link d-flex flex-column text-dark text-center align-items-center" href="">OUR MENU</a>
+                            </li>
+                            <li class="nav-item p-3">
+                                <a class="nav-link d-flex flex-column text-dark text-center align-items-center" href="./public/pages/blog.html">BLOG ENTRIES</a>
+                            </li>
+                            <li class="nav-item p-3">
+                                <a class="nav-link d-flex flex-column text-dark text-center align-items-center" href="./public/pages/contact.html">CONTACT US</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div> 
+        </div>
+    </header>
+
+    <!-- Haut de page avec une section et container pour avoir les margins correct. -->
+    <section class="hautpageblog" style="background-image: url(/public/img/heading-bg.jpg); height: 250px; background-repeat: no-repeat; background-size: cover; background-position: center center; text-align: center;">
+    <div class="container">
+            <div class="row justify-content-center align-items-center" style="height: 250px;">
+                <div class="col-12 text-white text-center">
+                    <h1 style="font-family: 'Spectral', serif; font-weight: bold;">OUR BLOG</h1>
+                    <p>You can feel free to use our template for any purpose of your website. Thank you. <br> Template re-distribution is <span><strong>not allowed</strong> in any download.</span></p>
+                </div>
+            </div>
+    </div>
+    </section>
+    <!-- 4 section carte avec container, carte bootstrap, copié collé 4 fois, texte et photo changé-->
+    <section class="carte1" style="margin-top: 25px; margin-bottom: 25px;">
+        <div class="container">
+            <div class="row justify-content-center align-items-center mt-5">
+                <div class="col-md-8">
+                    <div class="card" style="border: none; height: 600px; width: auto;">
+                        <img class="card-img-top" src="../img/blog_item_01.jpg" alt="Card image cap" style="width: 100%; overflow: hidden; vertical-align: middle; border: 0; height: auto;">
+                        <!-- Position absolute pour être en haut a gauche de l'image -->
+                        <p class="text-danger p-2" style="position: absolute; background-color: rgba(250, 250, 250, 0.8);">26 oct 2020</p>
+                        <div class="text-card p-4" style="background-color: #f2f6ff;">
+                            <h3 style="font-family: 'Spectral', serif;">Nullam ornare purus massa</h3>
+                            <p style="font-size: 15px;">Branding / Admin</p>
+                            <p style="font-size: 12px; line-height: 1.5rem;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos commodi dolorum minus velit corrupti reprehenderit ea rem dicta perspiciatis, officia eius doloribus, fuga ipsum laboriosam nulla culpa repellendus odit doloremque voluptatibus necessitatibus voluptas. Expedita saepe aperiam, quasi, minima laudantium beatae voluptatibus tenetur velit corrupti dolores totam quam! Corrupti!</p>
+                            <button class="text-danger p-0" style="border: none; background-color: transparent; font-size: 13px;">CONTINUE READING</button>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="carte2" style="margin-top: 25px; margin-bottom: 25px;">
+        <div class="container">
+            <div class="row justify-content-center align-items-center mt-5">
+                <div class="col-md-8">
+                    <div class="card" style="border: none">
+                        <img class="card-img-top" src="../img/blog_item_02.jpg" alt="Card image cap" style="background-position: center center; height:auto">
+                        <p class="text-danger p-2" style="position: absolute; background-color: rgba(250, 250, 250, 0.8);">21 oct 2020</p>
+                        <div class="text-card p-4" style="background-color: #f2f6ff;">
+                            <h3 style="font-family: 'Spectral', serif;">Class aprent taciti sociosqu</h3>
+                            <p style="font-size: 15px;">Branding / Admin</p>
+                            <p style="font-size: 12px; line-height: 1.5rem;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos commodi dolorum minus velit corrupti reprehenderit ea rem dicta perspiciatis, officia eius doloribus, fuga ipsum laboriosam nulla culpa repellendus odit doloremque voluptatibus necessitatibus voluptas. Expedita saepe aperiam, quasi, minima laudantium beatae voluptatibus tenetur velit corrupti dolores totam quam! Corrupti!</p>
+                            <button class="text-danger p-0" style="border: none; background-color: transparent; font-size: 13px;">CONTINUE READING</button>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="carte3" style="margin-top: 25px; margin-bottom: 25px;">
+        <div class="container">
+            <div class="row justify-content-center align-items-center mt-5">
+                <div class="col-md-8">
+                    <div class="card" style="border: none">
+                        <img class="card-img-top" src="../img/blog_item_03.jpg" alt="Card image cap" style="background-position: center center; height:auto">
+                        <p class="text-danger p-2" style="position: absolute; background-color: rgba(250, 250, 250, 0.8);">11 oct 2020</p>
+                        <div class="text-card p-4" style="background-color: #f2f6ff;">
+                            <h3 style="font-family: 'Spectral', serif;">Cras congue nisi non varius tincidunt</h3>
+                            <p style="font-size: 15px;">Dessert / Chef</p>
+                            <p style="font-size: 12px; line-height: 1.5rem;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos commodi dolorum minus velit corrupti reprehenderit ea rem dicta perspiciatis, officia eius doloribus, fuga ipsum laboriosam nulla culpa repellendus odit doloremque voluptatibus necessitatibus voluptas. Expedita saepe aperiam, quasi, minima laudantium beatae voluptatibus tenetur velit corrupti dolores totam quam! Corrupti!</p>
+                            <button class="text-danger p-0" style="border: none; background-color: transparent; font-size: 13px;">CONTINUE READING</button>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="carte4" style="margin-top: 25px; margin-bottom: 25px;">
+        <div class="container">
+            <div class="row justify-content-center align-items-center mt-5">
+                <div class="col-md-8">
+                    <div class="card" style="border: none">
+                        <img class="card-img-top" src="../img/blog_item_04.jpg" alt="Card image cap" style="background-position: center center; height:auto">
+                        <p class="text-danger p-2" style="position: absolute; background-color: rgba(250, 250, 250, 0.8);">03 oct 2020</p>
+                        <div class="text-card p-4" style="background-color: #f2f6ff;">
+                            <h3 style="font-family: 'Spectral', serif;">Vivamus euismod lorem</h3>
+                            <p style="font-size: 15px;">Food / Chef</p>
+                            <p style="font-size: 12px; line-height: 1.5rem;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos commodi dolorum minus velit corrupti reprehenderit ea rem dicta perspiciatis, officia eius doloribus, fuga ipsum laboriosam nulla culpa repellendus odit doloremque voluptatibus necessitatibus voluptas. Expedita saepe aperiam, quasi, minima laudantium beatae voluptatibus tenetur velit corrupti dolores totam quam! Corrupti!</p>
+                            <button class="text-danger p-0" style="border: none; background-color: transparent; font-size: 13px;">CONTINUE READING</button>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Comme haut de page, container pour les margins, div avec deux col-12 pour prendre toute la largeur et se mette au millieu correctement -->
+    <section class="baspageblog" style="background-image: url(/public/img/signup-bg.jpg); background-repeat: no-repeat; height: 250px; background-position: center center; margin-top: 25px;">
+        <div class="container">
+            <div class="row justify-content-center align-items-center" style="height: 250px;">
+                <div class="col-12 text-white text-center" style="margin-bottom: -38px;">
+                    <h2 style="font-size: 21px;">SIGNUP FOR OUR NEWSLETTERS</h2>
+                </div>
+                <div class="col-12 text-white text-center" style="margin-top: -70px;">
+                    <input class="p-2 mr-2" style="width: 350px; border-radius: 3px; border: white solid 1px; font-size: 13px;" type="text" placeholder="enter your e-mail here ...">
+                    <button class="text-white p-2 ml-2" style="background-color: transparent; border: white solid 1px; width: 150px; border-radius: 3px; text-transform: uppercase; font-size: 13px;">send message</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer avec container, 3 div col-md-4 pour se diviser en trois partie égale, texte centré, et du padding pour mieux se placer quand l'écran diminue -->
+    <footer style="background-color: #363e50;">
+        <div class="container">
+            <div>
+                <div class="row justify-content-center align-items-center" style=" height: 200px;">
+                    <div class="col-md-4 d-flex text-white text-center justify-content-center">
+                        <p>Copyright © 2020 Victory Template</p>
+                    </div>
+                    <div class="col-md-4 d-flex justify-content-center align-items-center">
+                        <ul class="col-md-12 d-flex text-center justify-content-center" style="list-style-type: none; justify-content: center; text-align: center; flex-wrap: wrap;">
+                            <li><a href=""><i class="fab fa-facebook-f text-dark" style="background-color: white; border-radius: 50%; color: #363e50; padding-top: 15px; padding-bottom: 15px; padding-left: 18px; padding-right: 18px; margin:3px 5px;"></i></a></li>
+                            <li><a href=""><i class="fab fa-twitter text-dark" style="background-color: white; border-radius: 50%; color: #363e50; padding: 15px; margin: 3px 5px;"></i></a></li>
+                            <li><a href=""><i class="fab fa-linkedin-in text-dark" style="background-color: white; border-radius: 50%; color: #363e50; padding: 15px; margin: 3px 5px;"></i></a></li>
+                            <li><a href=""><i class="fa fa-rss text-dark" style="background-color: white; border-radius: 50%; color: #363e50; padding: 15px; margin: 3px 5px;"></i></a></li>
+                            <li><a href=""><i class="fab fa-dribbble text-dark" style="background-color: white; border-radius: 50%; color: #363e50; padding: 15px; margin: 3px 5px;"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 d-flex text-white text-center justify-content-center">
+                        <p>Design: TemplateMo</p>
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </footer>
+
+    <!-- jquery -->
+    <script src="./node_modules/jquery/dist/jquery.js"></script>
+    <!-- bootstrap -->
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+</html>
